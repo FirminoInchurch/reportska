@@ -151,10 +151,6 @@
 <script>
   // ---- Lista de meses (nome exibido + slug usado no nome do arquivo) ----
   const MESES = [
-    {nome:"Janeiro", slug:"janeiro"},
-    {nome:"Fevereiro", slug:"fevereiro"},
-    {nome:"Março", slug:"marco"},
-    {nome:"Abril", slug:"abril"},
     {nome:"Maio", slug:"maio"},
     {nome:"Junho", slug:"junho"},
     {nome:"Julho", slug:"julho"},
@@ -173,7 +169,7 @@
   ];
 
   const ANO_ATUAL = new Date().getFullYear();
-  const ANOS = [ANO_ATUAL - 1, ANO_ATUAL, ANO_ATUAL + 1];
+  const ANOS = [ANO_ATUAL];
 
   const mesSelect = document.getElementById('mes');
   const anoSelect = document.getElementById('ano');
